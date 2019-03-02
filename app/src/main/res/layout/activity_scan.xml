@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".activity.ScanActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/app_name"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+
+    <ImageView
+        android:id="@+id/qrcode"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:layout_below="@id/title"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/qr_code" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description_qr"
+        android:layout_marginTop="88dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        style="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/scan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="SCAN" />
+
+</android.widget.LinearLayout>

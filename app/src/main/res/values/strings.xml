@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">KryptNation</string>
+    <string name="description_qr">Scan your Ethereum wallet address to start</string>
+    <string name="address">Ethereum address: </string>
+    <string name="confirmation">Get start!</string>
+    <string name="hint_edit">Rename the Ethereum wallet</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_accounts">Wallet</string>
+    <string name="title_transactions">Transactions</string>
+    <string name="title_bookmarks">Bookmarks</string>
+    <string name="ether_value">Ξ %1$s</string>
+    <string name="portfolio_value">Portfolio Value</string>
+    <string name="add_to_bookmark">Add to bookmark</string>
+    <string name="error_when_try_to_add_to_bookmark">You should name a wallet you want to bookmark</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+
+    <string-array name="wallet_choice">
+        <item>Use this wallet</item>
+        <item>Remove from favorite</item>
+    </string-array>
+</resources>
+
